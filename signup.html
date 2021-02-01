@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="k1.css">
+    <script type="text/javascript" src="k2.js"></script>
+    <title>Sign Up</title>
+</head>
+<body>
+    <div class="flex-Container">
+        <div class="sub-container1" >
+        </div>
+        <div class="sub-container2">
+        <form name="myform" onsubmit="validatePassword()">
+            <center>
+                <img src="sign.jpg" alt="Signup" width="120px" height="100px" style=" border-radius:50%; padding-top: 30px;">
+            
+                <div>
+                    <input type="email" placeholder="Enter e-mail" required>
+                </div>
+                <br>
+                <div>
+                    <input type="password" name="password1" id="password1" placeholder="Enter Password" minlength="6" required>
+                </div>
+                <br>
+                <div>
+                    <input type="password" name="password2" id="password2" placeholder="Repeat Password" minlength="6"  required>
+                </div>
+                <br>
+            </center>
+                <div class="label">
+                    <input type="checkbox" required>
+                    <label><b>Remember me</b></label>
+                </div>
+                <br>
+                <div class="l">
+                    To create an account you have to agree our <u><b style="color:white;">Terms & Privacy</b></u>
+                </div>
+                <br>
+                <div>
+                    <center>
+                    <button  style="background-image: linear-gradient(red,red);" type="reset"><b>Cancel</b></button>
+                    <button  style="background-image: linear-gradient(green,lightgreen);" type="submit"><b>Sign Up</b></button>
+                </center>
+                </div>
+            
+        </form>
+    </div>
+    </div>
+    </div>
+</body>
+</html>
